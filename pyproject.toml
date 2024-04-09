@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "parameter-server"
+version = "0.1.0"
+description = ""
+authors = ["Aaron Ai <aiyk@automq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+ray = {extras = ["default"], version = "^2.10.0"}
+numpy = "1.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
